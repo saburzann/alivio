@@ -1,9 +1,32 @@
-/* Core */
-@import url('./assets/styles/core/normalize.css');
-@import url('./assets/styles/core/fonts.css');
-@import url('./assets/styles/core/variables.css');
-@import url('./assets/styles/core/base.css');
+:root {
+  --white-color: #ffffff;
+  --dark-color: #484848;
+  --dark-black-color: #292929;
+  --black-color: #000000;
+  --accent-color: #01996d;
+  --dark-accent-color: #245852;
+  --light-accent-color: #01996d33;
 
-/* Sections */
+  --font-family: "Lato", sans-serif;
 
-/* Mobile */
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-900: 900;
+
+  --size-xs: 10px;
+  --size-sm: 12px;
+  --size-md: 14px;
+  --size-base: 16px;
+  --size-lg: 20px;
+  --size-xl: 24px;
+  --size-2xl: 30px;
+  --size-3xl: 36px;
+  --size-4xl: 40px;
+  --size-5xl: 44px;
+  --size-6xl: 50px;
+  --size-7xl: 64px;
+  --size-8xl: 70px;
+  --size-9xl: 150px;
+}

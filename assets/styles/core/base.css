@@ -1,0 +1,15 @@
+body {
+  font-size: var(--size-lg);
+  font-family: var(--font-family);
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-black-color);
+}
+
+.container {
+  max-width: 1400px;
+  margin-inline: auto;
+  padding-inline: 15px;
+}
