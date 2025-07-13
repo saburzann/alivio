@@ -36,7 +36,7 @@
   color: var(--white-color);
   background-color: var(--accent-color);
   padding: var(--size-md) var(--size-6xl);
-  border-radius: 4px;
+  border-radius: var(--border-radius-base);
   transition: all 0.3s;
 }
 
@@ -45,5 +45,6 @@
 }
 
 .cta__start-trial:active {
+  color: var(--dark-black-color);
   background-color: var(--light-accent-color);
 }
